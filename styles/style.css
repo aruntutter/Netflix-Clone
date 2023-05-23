@@ -153,5 +153,38 @@ body {
   font-size: 1.25rem;
 }
 
+/* MAIN SECTION */
+.section {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 8px solid rgb(35, 35, 35);
+}
+
+.section-left-container {
+  padding: 0 4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: start;
+  margin-left: 4rem;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.section-description {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.section-right-container {
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 576px) {
 }
