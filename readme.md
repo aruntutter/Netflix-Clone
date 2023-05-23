@@ -15,9 +15,8 @@
 
 ### Links
 
-- Solution URL: [here](https://github.com/aruntutter/Apple-Clone)
-- Live Site URL: [here](https://aruntutter.github.io/Apple-Clone/)
-- Live Site URL: [here](https://rainbow-belekoy-a67fc2.netlify.app)
+- Solution URL: [here](https://github.com/aruntutter/Netflix-Clone)
+- Live Site URL: [here](https://aruntutter.github.io/Netflix-Clone/)
 
 ### What I learned
 
