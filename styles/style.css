@@ -233,5 +233,53 @@ body {
   font-size: 2.3rem;
 }
 
+/* REGISTER BOX */
+.register-box-container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-top: 50px;
+  padding-bottom: 70px;
+}
+
+.register-box-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.register-box-cta-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.register-box-cta-input {
+  width: 25%;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 2px solid rgb(43, 184, 113);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-register-box {
+  padding: 0.7rem;
+  background-color: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  border-color: rgb(229, 9, 20);
+  border-radius: 4px;
+  font-size: 1.25rem;
+}
+
 @media screen and (min-width: 576px) {
 }
