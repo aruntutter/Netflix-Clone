@@ -15,7 +15,142 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #fff;
+  background: #000;
+  color: #fff;
+}
+
+/* HEADER */
+/* HEADER */
+
+.header {
+  width: 100%;
+  /* height: 100vh; */
+  height: 696px;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+  border-bottom: 8px solid rgb(35, 35, 35);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.navbar-logo-container {
+  width: 100%px;
+  height: auto;
+}
+
+.Navbar-logo {
+  width: 200px;
+  height: 75px;
+}
+
+.navbar-cta-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-select {
+  width: 125px;
+  height: 30px;
+  padding: 0.1rem 1rem;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(94, 94, 94);
+}
+
+.btn-navbar {
+  width: 75px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(229, 9, 20);
+  border-color: rgb(229, 9, 20);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 3;
+  height: calc(65vh - 7rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  margin-top: 200px;
+}
+
+.header-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.header-sub-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.header-description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.header-cta-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.header-cta-input {
+  width: 30%;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 2px solid rgb(70, 70, 70);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+.btn-header {
+  padding: 0.7rem;
+  background-color: rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  border-color: rgb(229, 9, 20);
+  border-radius: 4px;
+  font-size: 1.25rem;
 }
 
 @media screen and (min-width: 576px) {
