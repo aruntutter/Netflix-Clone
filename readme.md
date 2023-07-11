@@ -1,23 +1,57 @@
-# Netflix-Clone 🍿📺
+# Netflix Landing Page
 
-## Table of contents
+## Table of Contents
 
-- [Built with](#built-with)
 - [Links](#links)
-- [What I learned](#what-i-learned)
+- [Description](#description)
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [What I Learned](#what-i-learned)
+- [Contributing](#contributing)
 
-### Built with
+## Links
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flex box
-- CSS Grid
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/netflix_landing-page-clone)
+- Live Demo: [Live Demo URL](https://aruntutter.github.io/netflix_landing-page-clone/)
 
-### Links
+## Description
 
-- Solution URL: [here](https://github.com/aruntutter/Netflix-Clone)
-- Live Site URL: [here](https://aruntutter.github.io/Netflix-Clone/)
+This project is a replica of the Netflix landing page. It aims to showcase the design and layout skills by recreating the visual elements and user interface of the Netflix homepage.
 
-### What I learned
+## Demo
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+You can view the live demo of the Netflix Landing Page [here](https://inspiring-marigold-8845c5.netlify.app).
+
+## Features
+
+- Responsive design
+- Navbar with logo and sign-in button
+- Hero section with a captivating headline and call-to-action
+- Sections highlighting key features of Netflix (TV shows, offline viewing, device compatibility, and children's profiles)
+- Frequently Asked Questions (FAQ) section
+- Register box for email sign-up
+- Footer with useful links and language selection
+
+## Technologies Used
+
+- HTML5
+- CSS3
+
+## Usage
+
+To use this project, simply open the `index.html` file in your web browser.
+
+## What I Learned
+
+While working on this project, I gained experience in:
+
+- Replicating a complex web design using HTML and CSS
+- Implementing responsive design techniques to ensure compatibility across different devices
+- Structuring and organizing code for improved maintainability
+- Enhancing user experience through clear navigation and visually appealing sections
+
+## Contributing
+
+Contributions are not open for this project as it was created for learning and demonstration purposes only. However, your feedback and suggestions are always welcome! Feel free to reach out with any comments or ideas for improvement.
